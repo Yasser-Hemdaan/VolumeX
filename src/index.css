@@ -1,0 +1,35 @@
+:root {
+  /* --primary-color: #dff4f4; */
+  /* --secondary-color: #131314; */
+  /* --third-color: #1da7a5; */
+  --primary-color: #2ec4b6;
+  --secondary-color: #dff4f4;
+  --third-color: #fb571a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::selection {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.pageBody {
+  margin-block-start: 56px;
+}

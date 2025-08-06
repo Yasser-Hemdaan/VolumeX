@@ -1,0 +1,83 @@
+.testimonialsSection {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container {
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionHeader .badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: linear-gradient(to left, var(--primary-color), #1da7a5);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.sectionHeader .title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 40px;
+}
+
+.swiper {
+  padding: 20px 0;
+}
+
+.slide {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.quote {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.clientInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary-color);
+}
+
+.author {
+  margin: 0;
+  font-weight: bold;
+  color: #222;
+}
+
+.role {
+  margin: 2px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.stars {
+  color: var(--third-color);
+  font-size: 16px;
+}
